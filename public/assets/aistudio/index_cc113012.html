@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🐰 Rabbit Garden</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <div id="hud" class="hidden">
+      <span id="hud-carrots">🥕 Cenouras: 0/10</span>
+      <span id="hud-score">⭐ Pontos: 0</span>
+      <span id="hud-hearts">❤️❤️❤️</span>
+      <span id="hud-ammo">🎒 Munição: 3</span>
+    </div>
+
+    <canvas id="canvas" width="800" height="560"></canvas>
+
+    <section id="menu" class="overlay">
+      <h1>🐰 Rabbit Garden</h1>
+      <p>Ajude o coelho a encontrar todas as cenouras!</p>
+      <button id="btn-play">JOGAR</button>
+      <small>WASD ou setas: andar. ESPAÇO: lançar cenoura 🥕</small>
+    </section>
+
+    <section id="win" class="overlay hidden">
+      <h1>Você encontrou todas as cenouras! 🐰🥕</h1>
+      <p id="win-score"></p>
+      <button id="btn-again">Jogar novamente</button>
+    </section>
+
+    <section id="lose" class="overlay hidden">
+      <h1>Ai! O coelho se cansou 😵</h1>
+      <p>Os monstros venceram desta vez. Descanse na toca!</p>
+      <button id="btn-respawn">Voltar para a toca</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

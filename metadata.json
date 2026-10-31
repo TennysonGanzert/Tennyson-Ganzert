@@ -1,0 +1,6 @@
+{
+  "name": "Coelho Saltador: Aventuras & Jardim",
+  "description": "Um charmoso jogo de aventura com coelhinhos fofos, saltos infinitos, colheita de cenouras, personalização e jardim interativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
